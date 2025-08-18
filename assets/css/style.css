@@ -12,6 +12,11 @@ body{
      font-size: 1.6rem;
      font-family: "Poppins", sans-serif;
 }
+
+.break-all {
+    word-break: break-all;
+
+}
 /* ==================common============= */
 .btn{
 text-align: center;
@@ -39,6 +44,17 @@ a{
     font-weight: 700;
     line-height: 1.27; /* 126.316% */
     letter-spacing: -0.76px;
+}
+
+.line-clamp{
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp,1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2{
+    --line-clamp: 2;
 }
 /* ===================header================ */
 .header{
@@ -292,6 +308,7 @@ text-shadow: -1px 0 0 currentColor;
 }
 
 .popular .cource-item{
+   flex: 1;
    border-radius: 12px;
    border: 1px solid #E2DFDA;
    background: #FFF;
