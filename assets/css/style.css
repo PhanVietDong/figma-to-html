@@ -390,8 +390,15 @@ text-shadow: -1px 0 0 currentColor;
     background: rgba(46, 33, 0, 1);
 }
 
-.feedback-item{
+.feedback-list{
     display: flex;
+    overflow: hidden;
+}
+
+.feedback-item{
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
 }
 
 .feedback-item .avarta{
@@ -447,3 +454,5 @@ text-shadow: -1px 0 0 currentColor;
     font-style: italic;
     line-height: 1.54;
 }  
+
+ 
