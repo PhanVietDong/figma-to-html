@@ -381,3 +381,69 @@ text-shadow: -1px 0 0 currentColor;
 .popular .cource-item .btn-book:hover{
     background: var(--primary-color);
 }
+
+
+/* ============================feedback================== */
+.feedback{
+    margin-top: 135px;
+    padding: 96px 0;
+    background: rgba(46, 33, 0, 1);
+}
+
+.feedback-item{
+    display: flex;
+}
+
+.feedback-item .avarta{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-item .info .member-name{
+    margin-top: 18px;
+    color: #F7F7F7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.42; /* 141.667% */
+}
+
+.feedback-item .info .desc{
+    margin-top: 4px;
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+}
+
+.feedback-item .dots{
+    gap: 6px;
+    margin-top: 28px;
+    display: flex;
+}
+
+.feedback-item .dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(99, 71, 0, 1);
+    cursor: default;
+}
+
+.feedback-item .dot.active{
+    background-color: var(--primary-color);
+}
+
+.feedback-item .content{
+    width: 66%;
+    margin-left: auto;
+}
+
+.feedback-item blockquote{
+    color: #FFF;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.54;
+}  
